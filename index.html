@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco 90</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <div id="root" class="container-fluid p-0 m-0">
+
+        <header>
+            <nav class="navbar navbar-expand-md px-4 py-3" >
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/logoWhite.svg" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ajuda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Emprestimos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Sua conta bancária</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <button style="color: white; font-size: 11px; font-weight: 700; border: solid 2px white; white-space: nowrap;" class="btn btn-outline-success p-3" type="submit">Abra sua conta</button>
+                  </form>
+              </nav>
+        </header>
+
+        <main>
+            <section id="bemvindo" class="my-2 d-flex flex-column justify-content-center">
+                <div id="conteudo" class="d-flex flex-column gap-2 p-4 " >
+                    <h2 style="font-weight: bolder;" class="text-center">SEJA BEM VINDO AO BANCO 90!</h2>
+                    <p style="font-weight: 500;">Aqui você encontra o melhor serviço e atendimento do Brasil.</p>
+                    <div class="col-auto">
+                        <input style="background-color: var(--marrom); border: solid 2px var(--laranja); color: white;" class="p-3" type="button" value="Faça sua conta agora">
+                    </div>
+                </div>
+            </section>
+
+            <section id="pagamento" class="container my-5">
+                <h2 style="font-weight: bolder;" class="text-center my-5">ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h2>
+                <div class="d-flex justify-content-between">
+                    <div id="boleto">
+                        <div class="card d-flex flex-column align-items-center my-4" style="width: 18rem;">
+                            <img style="width: 10rem;" src="images/codigoDeBarras.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Boleto</h5>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div id="cartao">
+                        <div class="card d-flex flex-column align-items-center my-4" style="width: 18rem;">
+                            <img style="width: 10rem;"  src="images/CartaoDeCredito.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Cartão</h5>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div id="dinehro">
+                        <div class="card d-flex flex-column align-items-center my-4" style="width: 18rem;">
+                            <img style="width: 10rem;"  src="images/Dinheiro.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center">Dinheiro</h5>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: var(--marrom); color: white; height: 50vh;" id="contrate" class="container-fluid px-0 py-2 m-0 row">
+                <div id="conteudoContrate " class="col-7 py-0 px-4 m-0 d-flex flex-column justify-content-center">
+                    <h2>Contrate nossos serviços</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit harum placeat quod quisquam voluptatum, temporibus corporis suscipit repudiandae quos beatae rerum in, dignissimos sint numquam expedita deleniti commodi dolorum quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet perspiciatis nam, enim quis distinctio modi sequi voluptas autem, culpa doloremque asperiores animi! Odit labore delectus rem eius, suscipit iure temporibus!</p>
+                </div>
+                <img class="col-5 p-0 m-0 h-100" style="border-radius: 5px;" src="images/bannerBeneficios.jpg" alt="">
+            </section>
+
+            <section id="maneiras" class="container my-5">
+                <h2 style="font-weight: bolder;" class="text-center my-5">SEJA CLIENTE DE DIVERSAS MANEIRAS</h2>
+                <div id="tiposCartao" class="container p-0 m-0 d-flex gap-5 justify-content-around">
+                    <img style="height: 18rem; width: 18rem; border-radius: 1rem;" class="p-0 m-0" src="images/cartaoUm.jpg" alt="">
+                    <img style="height: 18rem; width: 18rem; border-radius: 1rem;" class="p-0 m-0" src="images/cartaoDois.jpg" alt="">
+                    <img style="height: 18rem; width: 18rem; border-radius: 1rem;" class="p-0 m-0" src="images/cartaoTres.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="datas" class="container my-5 d-flex flex-column align-items-center">
+                <div id="calendario">
+                    <h4 style="font-weight: bolder;" class="text-center my-3">SEJA CLIENTE DE DIVERSAS MANEIRAS</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Marcelo</td>
+                                <td>09:00 até as 13:00</td>
+                                <td>08:00 até as 12:00</td>
+                                <td>09:00 até as 14:00</td>
+                                <td>09:00 até as 12:00</td>
+                                <td>09:00 até as 12:00</td>
+                            </tr>
+                            <tr>
+                                <td>Daniele</td>
+                                <td>09:00 até as 13:00</td>
+                                <td>08:00 até as 12:00</td>
+                                <td>09:00 até as 14:00</td>
+                                <td>09:00 até as 12:00</td>
+                                <td>09:00 até as 12:00</td>
+                            </tr>
+                            <tr>
+                                <td>Marcelo</td>
+                                <td>09:00 até as 13:00</td>
+                                <td>08:00 até as 12:00</td>
+                                <td>09:00 até as 14:00</td>
+                                <td>09:00 até as 12:00</td>
+                                <td>09:00 até as 12:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center py-3">
+            Todos os direitos reservados a Bank 90!
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
