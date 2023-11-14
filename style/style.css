@@ -39,7 +39,7 @@ header nav form button{
     padding: 1rem;
     border-radius: 1rem;
     margin-top: 2rem;
-    box-shadow: 1rem 1rem 1rem gray;
+    box-shadow: 5px 5px 5px 8px rgb(177, 174, 174);
 }
 
 table{
